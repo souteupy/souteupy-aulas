@@ -9,6 +9,7 @@ Aulas curtas que expandem os conteúdos do [@souteu.py](https://www.instagram.co
 | Tema | Nível | O que você vai construir | Aula |
 |---|---|---|---|
 | Web scraping com Selenium | Iniciante | Um scraper de página dinâmica que salva dados em JSON | [Abrir aula](./aulas/web-scraping-com-selenium/) |
+| Variáveis de ambiente em Python | Iniciante | Uma configuração validada que não revela o segredo | [Abrir aula](./aulas/variaveis-de-ambiente-em-python/) |
 
 ## Como usar
 
