@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo souteu.py</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 3rem auto; padding: 0 1rem; background: #f7f3e8; color: #13233f; }
+    #catalogo { display: grid; gap: 1rem; }
+    article { border: 1px solid #9aa6b8; border-radius: .5rem; padding: 1rem; background: white; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Catálogo de cursos</h1>
+    <p id="status">Carregando com JavaScript…</p>
+    <section id="catalogo" aria-live="polite"></section>
+  </main>
+  <script>
+    const catalogo = [
+      { id: "python-web", nome: "Python para Web", preco: "R$ 79,90" },
+      { id: "automacao", nome: "Automação com Selenium", preco: "R$ 99,90" },
+      { id: "dados", nome: "Dados com Python", preco: "R$ 89,90" }
+    ];
+
+    setTimeout(() => {
+      const lista = document.querySelector("#catalogo");
+      catalogo.forEach((produto) => {
+        const card = document.createElement("article");
+        card.dataset.produto = produto.id;
+        card.innerHTML = `
+          <h2 data-campo="nome">${produto.nome}</h2>
+          <p data-campo="preco">${produto.preco}</p>
+        `;
+        lista.appendChild(card);
+      });
+      document.querySelector("#status").textContent = `${catalogo.length} cursos carregados`;
+    }, 600);
+  </script>
+</body>
+</html>

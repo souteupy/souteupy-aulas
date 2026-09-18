@@ -8,7 +8,7 @@ Aulas curtas que expandem os conteúdos do [@souteu.py](https://www.instagram.co
 
 | Tema | Nível | O que você vai construir | Aula |
 |---|---|---|---|
-| _A primeira aula será adicionada a pedido_ | — | — | — |
+| Web scraping com Selenium | Iniciante | Um scraper de página dinâmica que salva dados em JSON | [Abrir aula](./aulas/web-scraping-com-selenium/) |
 
 ## Como usar
 
