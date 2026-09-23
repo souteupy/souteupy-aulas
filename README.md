@@ -11,6 +11,7 @@ Aulas curtas que expandem os conteúdos do [@souteu.py](https://www.instagram.co
 | Web scraping com Selenium | Iniciante | Um scraper de página dinâmica que salva dados em JSON | [Abrir aula](./aulas/web-scraping-com-selenium/) |
 | Variáveis de ambiente em Python | Iniciante | Uma configuração validada que não revela o segredo | [Abrir aula](./aulas/variaveis-de-ambiente-em-python/) |
 | Ambientes virtuais em Python | Iniciante | Um inspetor que prova qual ambiente está em uso | [Abrir aula](./aulas/ambientes-virtuais-em-python/) |
+| `print()` não é log | Iniciante | Uma automação com logs contextuais, traceback e rotação | [Abrir aula](./aulas/print-nao-e-log/) |
 
 ## Como usar
 
